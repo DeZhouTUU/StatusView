@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto">
+
+    <com.qingchunlicai.tickview.StatusView.CrossView
+        android:id="@+id/cross_view"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.qingchunlicai.tickview.StatusView.TickView
+        android:id="@+id/tick_view"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/progress_wheel"
+        wheel:matProg_progressIndeterminate="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
